@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Léky - Přidat lék</title>
+  </head>
+  <body>
+    <h1>Přidat lék</h1>
+    <form method="get" action="depakine.html">
+      <table>
+        <tbody>
+          <tr>
+            <td>Název léku</td>
+            <td><input type="text" name="name"/></td>
+          </tr>
+          <tr>
+            <td>Způsob podání</td>
+            <td>
+              <select name="application">
+                <option value="peroral">Perorální</option>
+                <option value="skin">Kožní</option>
+                <option value="syringe">Injekce</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Léková forma</td>
+            <td>
+              <select name="form">
+                <option value="tablet">Tablety</option>
+                <option value="solution">Roztok</option>
+                <option value="cream">Krém</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>ATC skupina</td>
+            <td>
+              <select name="atc">
+                <option value="N03AG01">N03AG01 Kyselina valproová</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Účinné látky</td>
+            <td>
+              <ul>
+                <li><input type="text" name="compound0"/></li>
+                <li><input type="text" name="compound1"/></li>
+                <li><input type="text" name="compound2"/></li>                
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h2>Dostupná balení</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Velikost</th>
+            <th>Maximální cena</th>
+            <th>Úhrada z veřejného zdravotního pojištění</th>
+            <th>Příbalový leták</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="text" name="size0"/></td>
+            <td><input type="text" name="price0"/></td>
+            <td><input type="text" name="insurance0"/></td>
+            <td><button>Nahrát</button></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="size1"/></td>
+            <td><input type="text" name="price1"/></td>
+            <td><input type="text" name="insurance1"/></td>
+            <td><button>Nahrát</button></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="size2"/></td>
+            <td><input type="text" name="price2"/></td>
+            <td><input type="text" name="insurance2"/></td>
+            <td><button>Nahrát</button></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="size3"/></td>
+            <td><input type="text" name="price3"/></td>
+            <td><input type="text" name="insurance3"/></td>
+            <td><button>Nahrát</button></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="size4"/></td>
+            <td><input type="text" name="price4"/></td>
+            <td><input type="text" name="insurance4"/></td>
+            <td><button>Nahrát</button></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <input type="submit" value="Přidat"/>
+    </form>
+  </body>
+</html>
