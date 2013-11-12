@@ -8,3 +8,28 @@ div.inner{
     position:relative;
     left:-50%;
 }
+
+body {
+    background-color: #ddffff;
+    margin: 50px 15% 50px 15%; /* css_01.html */
+}
+
+div#index {
+    /* http://www.w3.org/Style/Examples/007/center */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#index input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#index input[type="search"] {
+    width: 256px;
+}
