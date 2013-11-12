@@ -1,14 +1,3 @@
-/* http://stackoverflow.com/a/6353345 */
-div.outer{
-    display:inline-block;
-    position:relative;
-    left:50%;
-}
-div.inner{
-    position:relative;
-    left:-50%;
-}
-
 body {
     background-color: #ddffff;
     margin: 50px 15% 50px 15%; /* css_01.html */
