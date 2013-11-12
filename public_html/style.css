@@ -7,6 +7,10 @@ h1 {
   text-align: center;
 }
 
+.currency-czk:after {
+  content: " Kč";
+}
+
 /* index */
 div.index {
   /* http://www.w3.org/Style/Examples/007/center */
