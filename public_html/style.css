@@ -33,12 +33,32 @@ div.index {
 }
 
 .searchResults li {
-  border-width: 4px;
-  border-style: outset;
+  border-width: 2px;
+  border-style: solid;
   border-color: blue;
   padding: 2px 2px 2px 2px;
-  margin-top: 2px;
-  margin-bottom: 4px;
+  margin: 2px 2px 2px 2px;
+  float: left;
+}
+
+.searchResults a:link li {
+  background-color: #ddffff;
+}
+
+.searchResults a:hover li {
+  background-color: #bbffff;
+}
+
+.searchResults a:focus li {
+  background-color: #bbffff;
+}
+
+.searchResults a:active li {
+  background-color: #99ffff;
+}
+
+.searchResults a:visited li {
+  background-color: #eeffff;
 }
 
 table {
@@ -88,4 +108,9 @@ tr:nth-child(2n) {
 
 tr:nth-child(2n+1) {
   background-color: #eeeeee;
+}
+
+h2 {
+  position: relative;
+  left: 20px;
 }
