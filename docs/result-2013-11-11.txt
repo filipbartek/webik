@@ -1,0 +1,4 @@
+Assignment 1:
+
+- No HTML5 input field types
+- Nonsense usage of <pre> element in SPC document. Why you do not use <div> instead? 
