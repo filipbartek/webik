@@ -43,11 +43,11 @@ div#menu {
 #menu li > a[href]:hover {
   background-color: #ffffff;
 }
-#menu li > a:focus {
+#menu li > a[href]:focus {
   background-color: #ffffff;
 }
-#menu li > a:active {
-  background-color: #ffffff;
+#menu li > a[href]:active {
+  background-color: #ffdddd;
 }
 #menu li > a:visited {
   background-color: #eeeeff;
